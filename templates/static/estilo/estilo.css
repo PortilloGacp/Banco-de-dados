@@ -1,0 +1,294 @@
+/* TODO O SITE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+/* TODO O SITE */
+
+/* CORES DO SITE */
+:root {
+    --main-color: #940087;
+    --text-color: #ffffff;
+    --bg-color1: #080808;
+    --bg-color2: #080808;
+}
+/* CORES DO SITE */
+
+/* todo o site */
+html {
+    font-size: 60%;
+    overflow-x: hidden;
+}
+/* todo o site */
+
+/* BODY */
+body {
+    background-color: var(--bg-color1);
+    color: var(--text-color);
+}
+/* BODY */
+
+/* -------------------------INICIO DE TODO O HEADER DO HTML-------------------------*/
+/* HEADER CABEÃ‡ALHO */
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 4rem 15%;
+    background-color: #080808b5;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+/* HEADER CABEÃ‡ALHO */
+
+/* NAV BAR */
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: var(--text-color);
+    margin-left: 2rem; /* Reduz o espaçamento */
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+    border-bottom: 3px solid transparent;
+}
+
+.navbar a:hover {
+    text-decoration: none;
+    color: var(--bg-color2);
+}
+/* NAV BAR */
+
+/* GRADIENT */
+.gradient-btn {
+    font-size: 1.8rem;
+    padding: 1rem 2rem;
+    border-radius: 3rem;
+    background: linear-gradient(270deg, #ffffff 10%, #530548 100%);
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    color: white;
+    border: none;
+    text-wrap: nowrap;
+}
+
+/* HOME */
+.animate-text {
+    opacity: 0;
+    transform: translateX(-50px);
+    animation: fadeSlideIn 1.5s ease-out forwards;
+}
+
+@keyframes fadeSlideIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.animate2 {
+    opacity: 0;
+    transform: translateY(-50px);
+    animation: fadeSlideDown 1.5s ease-out forwards;
+}
+
+@keyframes fadeSlideDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15rem;
+    margin-top: 2rem;
+}
+
+.home-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 20rem;
+    text-align: left;
+}
+
+.home-content h1 {
+    font-size: 12rem;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    line-height: 1;
+}
+
+.home-content h2 {
+    font-size: 3rem;
+    font-weight: 400;
+    margin-top: 1.5rem;
+    line-height: 4;
+}
+/* HOME */
+
+/* -----------  CADASTRO ----------- */
+.cadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 235px;
+}
+
+.cadastro .container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(89, 11, 102, 0.325);
+    width: 600px;
+    max-width: 95%;
+}
+
+.cadastro h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 5.5em;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #555;
+}
+
+input[type="number"],
+input[type="text"] {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+input[type="number"]:focus,
+input[type="text"]:focus {
+    border-color: #ff00fb;
+    outline: none;
+}
+
+button {
+    background-color: rgba(89, 11, 102, 0.325);
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 2.0em;
+    cursor: pointer;
+    display: block;
+    margin: 50px auto 0;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #6c027a;
+}
+/* -----------  CADASTRO ----------- */
+
+
+
+
+
+
+
+
+
+
+/* -----------  HTML DADOS ----------- */
+
+
+/* Estilos para a tabela */
+
+/* todo o site */
+html {
+    font-size: 60%;
+    overflow-x: hidden;
+}
+/* todo o site */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+/* TODO O SITE */
+
+/* BODY */
+body {
+    background-color: var(--bg-color1);
+    color: var(--text-color);
+}
+/* BODY */
+
+
+.container h1 {
+    text-decoration: none;
+    font-size: 6rem;
+    font-weight: 700;
+    margin-top: 10rem;
+    line-height: 1;
+    padding: 4rem;
+}
+
+#home-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 20px auto; /* Centraliza o botão horizontalmente */
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+
+#home-button:hover {
+    background-color: #0056b3;
+}
+
+#home-button:active,
+#home-button:focus {
+    outline: 2px solid #0056b3;
+}
+/* Fim dos estilos para a tabela */
+
