@@ -30,6 +30,11 @@ Este projeto consiste em um sistema de cadastro desenvolvido para auxiliar na or
 1.  Execute o servidor de desenvolvimento: `python manage.py runserver`
 2.  Acesse a aplicação no seu navegador: `http://127.0.0.1:8000/`
 
+   
+## Contribuição
+
+Contribuições são bem-vindas! Se você encontrar erros ou tiver sugestões de melhorias, sinta-se à vontade para abrir issues e pull requests.
+
 
 ## Agradecimentos
 
